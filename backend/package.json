@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "@strapi/strapi": "4.4.0",
+    "@strapi/plugin-users-permissions": "4.4.0",
+    "@strapi/plugin-i18n": "4.4.0",
+    "better-sqlite3": "7.4.6"
+  },
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ec270dce-a5c3-4ce1-a0cb-f045760f98b8",
+    "template": "./strapi-template-blog"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
